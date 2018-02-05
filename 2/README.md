@@ -2,7 +2,7 @@ The second chapter, “Building Abstractions with Data” ... [summarize when co
 
 # 2.1 Introduction to Data Abstraction
 
-Exercises 2.1– follow sections 2.1.x–y ().
+Exercises 2.1 follows section 2.1.1 (Example: Arithmetic Operations for Rational Numbers), in which a pair is used to represent a rational number and sign-corrects if necessary—but no other checking yet!
 
 # 2.2 Hierarchical Data and the Closure Property
 
