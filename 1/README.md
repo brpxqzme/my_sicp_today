@@ -30,7 +30,7 @@ features being exponentiation by squaring.
 Exercise 1.20 follows section 1.2.5 (Greatest Common Divisors), and
 
 Exercises 1.21–1.28 follow section 1.2.6 (Example: Testing for Primality),
-covering not only the stop-at-square-root method, but also Fermat's Little
+covering not only the stop-at-square-root method, but also Fermat’s Little
 Theorem and the Miller–Rabin test.
 
 # 1.3 Formulating Abstractions with Higher-Order Procedures
@@ -42,17 +42,17 @@ numerical integration (calculus) and staples of functional programming
 
 Exercise 1.34 follows section 1.3.2 (Constructing Procedures Using Lambda).
 Although SICP drives home that naming things is a powerful way to understand
-what procedures are really about, some things really don't need names, which
+what procedures are really about, some things really don’t need names, which
 is also powerful when the implications are fully explored.
 
 Exercises 1.35–1.39 follow section 1.3.3 (Procedures as General Methods),
-which really starts to get a little mind-twisty, particularly if you don't
-grok Scheme idiomatically or the mathematics involved doesn't stick with you.
+which really starts to get a little mind-twisty, particularly if you don’t
+grok Scheme idiomatically or the mathematics involved doesn’t stick with you.
 Discusses half-interval method, fixed points of functions, and continued
 fractions for approximating some wily irrational numbers.
 
 Exercises 1.40–1.46 follow section 1.3.4 (Procedures as Returned Values),
-where Newton's Method is rehashed to more than just a square-root finder,
+where Newton’s Method is rehashed to more than just a square-root finder,
 what "first-class" means is described, and miscellaneous numerical methods
 are touched upon to cap off the chapter, including further higher-ordering
 what we have been higher-ordering already (what a wild ride!).
