@@ -32,6 +32,6 @@
 ;Value 2: (3 . 4)
 ;; (make-rectangle-2 (make-segment (make-point 0 0) (make-point 3 4)))
 ;Value 3: (3 . 4)
-;; the same internal representation is not the relevant matter; it's that
+;; the same internal representation is not the relevant matter; it’s that
 ;; both of these will give the same answers from respective width/height
 ;; selectors and either could give valid answers from perimeter/area procedures

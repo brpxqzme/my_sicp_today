@@ -1,7 +1,7 @@
 ;; Exercise 2.6: Procedures that behave as non-negative integers
 
 ;; Given definitions for Church numerals
-;; It may be easy to guess that these numerals can evaluate to Scheme's
+;; It may be easy to guess that these numerals can evaluate to Scheme’s
 ;; integers by passing 1+ as f, then passing 0 as x to its result:
 ;((zero 1+) 0)
 ;Value: 0
