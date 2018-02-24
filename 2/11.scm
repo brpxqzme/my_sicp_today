@@ -42,3 +42,16 @@
             (make-interval (* x-u y-l) (* x-u y-u)))
           ;; case 9: ++ * ++
           (make-interval (* x-l y-l) (* x-u y-u)))))))
+
+;; but does it run faster?
+;(define (do100k f n) (if (< n 100000) (let () (f) (do10k f (1+ n)))))
+;(define (time-mul) (let* ((t1 (runtime)) (anon (do10k (lambda () (mul-interval a b)) 0))) (- (runtime) t1)))
+;(time-mul) ; old
+;Value: .5299999999999998
+;(time-mul)
+;Value: .52
+;(time-mul) ; new
+;Value: .3999999999999999
+;(time-mul)
+;Value: .38000000000000034
+;; so, as machine-dependent as this may be, I get 25% off for the ++*++ case
