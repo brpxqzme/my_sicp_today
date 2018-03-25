@@ -3,8 +3,9 @@
 ;; Equivalent algebraic expressions can lead to different answers in light of
 ;; error because the different methods used to arrive at them should be
 ;; expected to compound the error in different ways. I could draw an analogy
-;; to floating-point math, but better writers and mathematicians have written
-;; many things on that topic.
+;; to floating-point math, and how the order of operations can
+;; deterministically derive different results, but better writers and
+;; mathematicians have written many things on that topic.
 
 ;; My analogy would be to an application where interval estimations are
 ;; relevant and exact results can be found: damage over time in role-playing
